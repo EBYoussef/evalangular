@@ -1,9 +1,11 @@
+import { HttpClientModule } from '@angular/common/http'
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StatistiqueComponent } from './statistique/statistique.component';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -12,7 +14,8 @@ import { StatistiqueComponent } from './statistique/statistique.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
