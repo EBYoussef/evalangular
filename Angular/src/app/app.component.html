@@ -1,4 +1,6 @@
-<app-statistique [stat]="stat0"></app-statistique>
+<app-statistique *ngFor="let stat of tabstats" [stat]="stat">
+
+</app-statistique>
 
 
 <router-outlet></router-outlet>
