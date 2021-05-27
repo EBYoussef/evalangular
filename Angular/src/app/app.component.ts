@@ -20,6 +20,6 @@ export class AppComponent {
     'fa1f5f40-be3b-11eb-91ec-7f5875ecfb47',
     'Démographie en Belgique',
     '11M',
-    'Success'
+    'SUCCESS'
   )
 }
